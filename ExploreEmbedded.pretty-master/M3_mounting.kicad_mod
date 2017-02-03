@@ -1,0 +1,18 @@
+(module "EE Library:M3_mounting" (layer F.Cu) (tedit 567A82C1)
+  (fp_text reference REF** (at 0.2 -3.9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "M3 mounting" (at 0.25 4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 3.1) (end 2.4 1.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 1.7) (end 0 3.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 -1.8) (end 0 -3.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 1.8) (end -2.5 -1.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.4 -1.8) (end 0 -3.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.4 1.8) (end 2.4 -1.9) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 0 0) (end 2 2.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.1 0) (end 3.1 0.2) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 0 0) (end 1.3 1.3) (layer F.SilkS) (width 0.15))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3) (layers *.Cu *.Mask F.SilkS))
+)
